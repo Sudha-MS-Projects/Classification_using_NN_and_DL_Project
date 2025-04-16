@@ -35,40 +35,40 @@ The main objective is to evaluate the perfomance of the CNN using:
 * **Loss Function**: Cross-Entropy
 * **Activation Function**: Softmax
 
-  After each epoch, the network's performance is evaluated on both the training and testing datasets.
+After each epoch, the network's performance is evaluated on both the training and testing datasets.
 
-  ## Evaluate Method
-  An evaluate() method is used to assess model performance. This method:
-  * Performs a forward pass through the network
-  * Computes cross-entropy loss
-  * Compares predicted vs actual labels to calculate accuracy
-  * Returns average loss and accuracy over the datset
+## Evaluate Method
+An evaluate() method is used to assess model performance. This method:
+* Performs a forward pass through the network
+* Computes cross-entropy loss
+* Compares predicted vs actual labels to calculate accuracy
+* Returns average loss and accuracy over the datset
 
-  ## Requirements
-  - Python 3.x
-  - Numpy
-  - Matplotlib
-  - Pandas
-  - Jupyter Notebook
+## Requirements
+- Python 3.x
+- Numpy
+- Matplotlib
+- Pandas
+- Jupyter Notebook
  
-  You can install required libraries using pip:
-      pip install numpy matplotlib pandas
+You can install required libraries using pip:
+    pip install numpy matplotlib pandas
 
-  ## How to Run the Code
-  #### 1. Clone the respository
-    Clone the respository to your local machine using the following command:
+## How to Run the Code
+#### 1. Clone the respository
+  Clone the respository to your local machine using the following command:
     
-        git clone https://github.com/Sudha-MS-Projects/Classification_using_NN_and_DL_Project.git
-  #### 2. Naviagte to the project directory
-        cd Classification_using_NN_and_DL_Project 
-  #### 3. Open Jupyter Notebook
-        Jupyter Notebook 
-    This will open Jupyter Notebook interface in the browser.
-  #### 4. Run the Notebook
-    - Find and Open **Classification_using_CNN.ipynb** file and run the cells.
+      git clone https://github.com/Sudha-MS-Projects/Classification_using_NN_and_DL_Project.git
+#### 2. Naviagte to the project directory
+      cd Classification_using_NN_and_DL_Project 
+#### 3. Open Jupyter Notebook
+      Jupyter Notebook 
+  This will open Jupyter Notebook interface in the browser.
+#### 4. Run the Notebook
+  Find and Open **Classification_using_CNN.ipynb** file and run the cells.
  
-  ### 3. Review the Result
-  After tarining completes, the notebook displays:
-  * Training and Testing Accuracy per epoch
-  * Training and Testing loss per epoch
-  * Accuracy and Loss plots to visualize learing process
+### 3. Review the Result
+After tarining completes, the notebook displays:
+* Training and Testing Accuracy per epoch
+* Training and Testing loss per epoch
+* Accuracy and Loss plots to visualize learing process
