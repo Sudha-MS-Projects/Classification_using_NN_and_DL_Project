@@ -58,7 +58,7 @@ The main objective is to evaluate the perfomance of the CNN using:
   #### 1. Clone the respository
     Clone the respository to your local machine using the following command:
     
-        git clone https://github.com/Sudha-MS-Projects/Classification_using_CNN.git
+        git clone https://github.com/Sudha-MS-Projects/Classification_using_NN_and_DL_Project.git
   #### 2. Naviagte to the project directory
         cd Classification_using_NN_and_DL_Project 
   #### 3. Open Jupyter Notebook
